@@ -1,0 +1,103 @@
+
+
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+
+}
+
+
+.container {
+	
+	position: relative;
+	height: 800px;
+	width: 800px;
+	background-image: url(../img/four4.jpg);
+	background-repeat: repeat;
+	margin: 40px auto;
+	border: 1px solid gray;
+}
+
+
+
+.round {
+	position: absolute;
+	border-radius: 50%;
+	height: 80px;
+	width: 80px;
+}
+
+
+.red .round {
+	background-color: #f44;
+
+} 
+
+.blue .round {
+	background-color: #188;
+}
+
+
+.row1 {
+	top: 10px;
+}
+
+.row2 {
+	top: 110px;
+}
+
+.row3 {
+	top: 210px;
+}
+
+
+.row6 {
+	top: 510px;
+}
+
+.row7 {
+	top: 610px;
+}
+
+.row8 {
+	top: 710px;
+}
+
+
+
+
+.col1, .col2 {
+	left: 10px;
+}
+
+
+.col3, .col4 {
+	left: 210px;
+}
+
+
+.col5, .col6 {
+	left: 410px;
+}
+
+
+.col7, .col8 {
+	left: 610px;
+}
+
+
+.shift {
+	transform: translate(100px, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
